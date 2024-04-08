@@ -18,6 +18,8 @@ flight_routes = {
   ],
   "Australia": [],
 }
+#this is just a comment
+#added another comment
 
 def find_all_possible_routes(starting, destination, visited=None, current_route=None, total_duration=0, count=0):
     if visited is None:
